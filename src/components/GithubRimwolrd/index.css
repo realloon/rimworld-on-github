@@ -1,0 +1,91 @@
+.repositories-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.repository-card {
+  line-height: 1.5;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 32em;
+  padding: 16px 24px;
+  box-shadow: 0 3px 8px 2px #00000016;
+  border-radius: 8px;
+}
+
+.repository-card .license {
+  font-size: 1rem;
+  color: #1f883d;
+}
+
+.repository-card hgroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.repository-card h2 {
+  margin: 0.5em 0;
+  /* TODO */
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.repository-card h3 {
+  font-size: 0.7rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0 0 1em 0;
+}
+
+.repository-card blockquote {
+  margin: 0 0 0.5em 0;
+}
+
+.repository-card p {
+  margin: 0 0 1em 0;
+}
+
+.more-wrapper {
+  display: flex;
+  gap: 1em;
+  /* within text */
+  font-size: 0.8rem;
+}
+
+.more-wrapper .homepage {
+  color: #1f883d;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+}
+
+.license-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.footer-bar {
+  display: flex;
+  gap: 1em;
+  /* within text */
+  color: #656d76;
+  font-size: 0.6rem;
+}
+
+/*  */
+.repository-card hgroup .avatar {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.repository-card hgroup .title {
+  color: #0969da;
+  text-decoration: none;
+}
+.repository-card hgroup img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px 2px #00000016;
+}

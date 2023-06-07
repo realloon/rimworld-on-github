@@ -1,0 +1,37 @@
+.readme {
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+.readme h1 {
+  margin: 0 0 1em 0;
+}
+
+.readme img {
+  width: 100%;
+  border-radius: 8px;
+}
+/* 徽标处理 */
+.readme p:has(img[alt='Version']) {
+  text-align: center;
+}
+
+.readme img[alt='Version'],
+.readme img[alt='NuGet'] {
+  width: auto;
+}
+
+.readme a {
+  word-break: break-all;
+}
+
+.readme code {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.readme ul,
+.readme ol {
+  padding-left: 2em;
+}
